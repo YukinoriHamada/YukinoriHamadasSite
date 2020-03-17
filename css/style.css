@@ -1,0 +1,178 @@
+*{
+    font-family:'ヒラギノ角ゴ ProN W3',sans-serif;
+    size:18px;
+    color:black;
+    text-decoration:none;
+}
+h2{
+    size:24px;
+    text-align:center;
+}
+
+.container {
+    width:700px;
+    margin:0 auto;
+}
+header {
+    margin-top:40px;
+}
+header h1 {
+    
+    size:32px;
+    text-align:center;
+}
+header a {
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+header a:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.header-list {
+    width:500px;
+    margin:0 auto;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+#page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+  
+
+.introduction-wrapper {
+    
+    margin-top:80px;
+}
+
+.introduction{
+    display:flex;
+
+}
+
+.introduction img {
+    width:40%;
+    border-radius:50%;
+}
+.introduction-messages {
+    width:55%;
+    margin-left:20px;
+}
+.introduction-messages span {
+    font-weight:bold;
+}
+
+.skillsets-wrapper {
+    margin-top:160px;
+}
+.skillsets-wrapper > .container {
+    width:770px;
+}
+.skill-groups {
+    display:flex;
+    justify-content: space-between;
+}
+
+.frontend {
+    margin-top:40px;
+    
+}
+
+.frontend-skills {
+    width:350px;
+    margin:0 auto;
+}
+
+table th, table td {
+    width:220px;
+}
+table th {
+    height:40px;
+}
+table td {
+    text-align:center;
+}
+
+.self-pr {
+    margin-top:160px;
+}
+
+.company {
+    font-weight:bold;
+    
+}
+.self-pr a {
+    display:inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.self-pr a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.self-pr p {
+    text-align:center;
+}
+.outputs {
+    margin-top:40px;
+}
+
+.outputs p{
+    margin-top:60px;
+    font-size:20px;
+}
+
+.self-pr li {
+    line-height:200%;
+    list-style:none;
+}
+footer {
+    margin-top:80px;
+}
+
+.footer-logo {
+    padding:60px 0 60px;
+    display:flex;
+    justify-content:space-between;
+    width:400px;
+    margin:0 auto;
+}
+
+.fa-18x {
+    font-size:1.8em;
+}
+footer img {
+    width:30px;
+}
+footer img:hover {
+    
+    opacity:0.5;
+}
+.footer-logo i{
+    width:30px;
+}
+.footer-logo i:hover{
+    opacity:0.5;
+}
