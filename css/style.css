@@ -4,6 +4,7 @@
     color:black;
     text-decoration:none;
 }
+
 h2{
     size:24px;
     text-align:center;
@@ -68,9 +69,12 @@ header a:hover {
     display:flex;
 
 }
+.intro-image {
+    width:40%;
+}
 
 .introduction img {
-    width:40%;
+    width:100%;
     border-radius:50%;
 }
 .introduction-messages {
@@ -94,10 +98,12 @@ header a:hover {
 
 .frontend {
     margin-top:40px;
-    
+}
+.backend {
+    margin-top:40px;
 }
 
-.frontend-skills {
+.skills {
     width:350px;
     margin:0 auto;
 }
@@ -167,7 +173,6 @@ footer img {
     width:30px;
 }
 footer img:hover {
-    
     opacity:0.5;
 }
 .footer-logo i{
@@ -176,3 +181,5 @@ footer img:hover {
 .footer-logo i:hover{
     opacity:0.5;
 }
+
+
