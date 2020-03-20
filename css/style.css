@@ -153,6 +153,7 @@ table td {
 .self-pr li {
     line-height:200%;
     list-style:none;
+    list-style-position:outside;
 }
 footer {
     margin-top:80px;
